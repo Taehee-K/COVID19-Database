@@ -1,0 +1,149 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font: 12px verdana, sans-serif;
+}
+
+#wrapper {
+    width: 960px;
+    margin: 15px auto;
+    text-align: left;
+    /* width: 70%;
+    margin: 5% auto;
+    text-align: left; */
+}
+
+#main_header {
+    background: #ffaeae;
+    /* border: 1px solid #999999; */
+    padding: 20px;
+}
+#navigation{
+    width: 100%;
+}
+#main_menu {
+    background: #fbdbdb;
+    font-size: 22;
+    padding:5px 15px;
+}
+
+#main_menu li {
+    display: inline-block;
+    list-style: none;
+    vertical-align: middle;
+    padding: 5px;
+    font: bold 16px verdana, sans-serif;
+}
+
+.header-login{
+    float: right;
+    display: inline;
+    /* white-space:nowrap; */
+    margin-left: auto;
+    /* list-style: none; */
+    padding: 5px;
+}
+
+#main_section {
+    width: 90%;
+    margin: 3%;
+    background: #fff9f9;
+    /* float: left;
+    width: 60%;
+    margin: 5%; */
+}
+
+#main_aside {
+    float: right;
+    width: 200px;
+    margin: 20px 0px;
+    padding: 20px;
+    background:#fbdbdb;
+    text-align: center;
+}
+
+#main_footer {
+    clear: both;
+    text-align: center;
+    padding: 20px;
+    border-top: 2px solid #999999;
+}
+
+body {
+    text-align: left;
+}
+
+h1 {
+    font: bold 20px verdana, sans-serif;
+}
+
+h2 {
+    font: bold 14px verdana, sans-serif;
+}
+
+time {
+    color: #999999;
+    font: 13px verdana, sans-serif;
+}
+
+article {
+    background: #fff9f9;
+    /* border: 1px solid #999999; */
+    padding: 20px;
+    margin-bottom: 15px;
+}
+    article footer {
+        text-align: right;
+    }
+
+#login-index{
+    background: #fbeaea;
+    padding: 20px;
+    margin-bottom: 15px;
+}
+
+#signup{
+    text-align: center;
+    background: #fff9f9;
+    padding: 20px;
+    margin-bottom: 15px;
+}
+
+#v1{
+    background: #6f94b0;
+    border: 1px solid #999999;
+    color: #22486d;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+#v2{
+    background: #5b7a92;
+    border: 1px solid #999999;
+    color: #22486d;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+figcaption {
+    font: italic 12px verdana, sans-serif;
+}
+
+.buttons{
+    margin: 0 auto;
+}
+
+.row {
+    background: #5b7a92;
+    color: #dbe4ec;
+    display: flex;
+    width: 90%;
+    box-sizing: border-box;
+    }
+
+    .column {
+    background: #dbe4ec;
+    flex: 33.33%;
+    padding: 5px;
+    box-sizing: border-box;
+    }
